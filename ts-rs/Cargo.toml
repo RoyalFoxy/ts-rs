@@ -38,6 +38,7 @@ no-serde-warnings = ["ts-rs-macros/no-serde-warnings"]
 tokio-impl = ["tokio"]
 jiff-impl = ["jiff"]
 arrayvec-impl = ["arrayvec"]
+hashbrown-impl = ["hashbrown"]
 
 [dev-dependencies]
 serde = { version = "1.0", features = ["derive"] }
